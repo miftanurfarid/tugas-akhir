@@ -2,4 +2,4 @@
 -----------------
 ### Mifta Nur Farid
 ### Teknik Fisika - ITS
-mifta nur farid dengan judul pemisahan sumber suara tercampur berdasarkan binaural cues: interaural time difference (ITD) dan interaural level difference (ILD)
+### Pemisahan Sumber Suara Tercampur Berdasarkan Binaural Cues: Interaural Time Difference (ITD) dan Interaural Level Difference (ILD)
