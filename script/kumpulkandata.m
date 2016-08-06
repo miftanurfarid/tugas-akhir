@@ -36,8 +36,8 @@ for T=1:5;
             masker=masker(1:length(target),:);
         end
 
-%        TL=conv(target,hrtf_target_left);
-%        TR=conv(target,hrtf_target_right);
+        TL=conv(target,hrtf_target_left);
+        TR=conv(target,hrtf_target_right);
         ML=conv(masker,hrtf_masker_left);
         MR=conv(masker,hrtf_masker_right);
 %        MIXL=TL+ML; %data training tanpa suara campur
@@ -45,8 +45,8 @@ for T=1:5;
 
         %% gammatone filterbank
 
-%        gfTL=gammatone(TL,128,[80,5000],16000);
-%        gfTR=gammatone(TR,128,[80,5000],16000);
+        gfTL=gammatone(TL,128,[80,5000],16000);
+        gfTR=gammatone(TR,128,[80,5000],16000);
         gfML=gammatone(ML,128,[80,5000],16000);
         gfMR=gammatone(MR,128,[80,5000],16000);
 %        gfMIXL=gammatone(MIXL,128,[80,5000],16000); %data training tanpa suara campur
@@ -54,8 +54,8 @@ for T=1:5;
 
         %% hair cell filter
 
-%        hcTL=meddis(gfTL,16000);
-%        hcTR=meddis(gfTR,16000);
+        hcTL=meddis(gfTL,16000);
+        hcTR=meddis(gfTR,16000);
         hcML=meddis(gfML,16000);
         hcMR=meddis(gfMR,16000);
 %        hcMIXL=meddis(gfMIXL,16000); %data training tanpa suara campur
