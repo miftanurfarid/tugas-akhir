@@ -4,7 +4,7 @@ function pisah
 tic
 azimuth_target=0;
 azimuth_masker=30;
-pow=0;
+pow=10;
 gender_target='mmht';
 gender_masker='fena';
 %% Data training
