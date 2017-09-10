@@ -67,7 +67,7 @@ hcMIXR=meddis(gfMIXR,16000);
 % itd
 % itdchanframeT=itdchanframe(hcTL,hcTR);
 itdchanframeM=itdchanframe(hcML,hcMR);
-% itdaverageMIX=averageitd(corrMIX);
+% itdaverageMIX=averageitd(corrMIX); -> corrMIX ada di kumpulkandata.m
 
 % ild
 % ildchanframeT = ildchanframe(hcTL,hcTR);
